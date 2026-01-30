@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.95 51.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #402928;
+        stroke-miterlimit: 10;
+        stroke-width: 6.17px;
+      }
+    </style>
+  </defs>
+  <g id="design_system" data-name="design system">
+    <g id="icons">
+      <g id="location">
+        <path class="cls-1" d="M26.36,47.5c-1.8,1.77-6.18,1.64-8.14.06-4.8-3.86-13.08-11.93-14.81-22.63C.94,9.66,13.31,2.92,21.67,3.09c8.36.16,20.71,6.31,19.04,19.56-1.46,11.64-12.3,22.84-14.36,24.86Z"/>
+        <circle class="cls-1" cx="21.93" cy="21.45" r="7.76"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.03 52.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #402928;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #402928;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 5.26px;
+      }
+    </style>
+  </defs>
+  <g id="design_system" data-name="design system">
+    <g id="icons">
+      <g id="cart">
+        <path class="cls-2" d="M0,2.63h7.01c1.08,0,2.06.63,2.52,1.61l4.3,9.25c.46.98,1.44,1.61,2.52,1.61h36.28c1.96,0,3.3,1.97,2.58,3.79l-6.94,17.62c-.42,1.06-1.44,1.76-2.58,1.76h-20.58c-1.16,0-2.2-.72-2.6-1.81L13.82,13.49"/>
+        <circle class="cls-1" cx="24.81" cy="48.33" r="4.14"/>
+        <circle class="cls-1" cx="45.68" cy="48.33" r="4.14"/>
+      </g>
+    </g>
+  </g>
+</svg>

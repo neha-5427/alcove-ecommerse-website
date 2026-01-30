@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.96 53.57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #402928;
+        stroke-miterlimit: 10;
+        stroke-width: 5.26px;
+      }
+    </style>
+  </defs>
+  <g id="design_system" data-name="design system">
+    <g id="icons">
+      <g id="bookmark">
+        <path class="cls-1" d="M2.63,49.31V4.26c0-.9.73-1.63,1.63-1.63h35.45c.9,0,1.63.73,1.63,1.63v45.03c0,1.18-1.21,1.97-2.29,1.48l-16.18-7.24c-.42-.19-.9-.19-1.32,0l-16.64,7.27c-1.07.47-2.28-.32-2.28-1.49Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

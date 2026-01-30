@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.34 50.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #402928;
+        stroke: #402928;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="design_system" data-name="design system">
+    <g id="icons">
+      <g id="account">
+        <circle class="cls-1" cx="25.72" cy="12.58" r="12.08"/>
+        <path class="cls-1" d="M.5,47.94v-4.78c0-.44.11-.86.34-1.24,1.38-2.22,7.16-9.87,21.61-10.32,16.56-.52,26.56,5.21,28.28,10.88.08.25.1.5.1.76v4.71c0,1.33-1.07,2.4-2.4,2.4H2.9c-1.33,0-2.4-1.07-2.4-2.4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
