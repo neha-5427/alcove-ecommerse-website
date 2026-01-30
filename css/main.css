@@ -1,0 +1,23 @@
+/* header */
+
+.wordmark {
+  height: 2rem;
+  padding-left: 2%;
+  margin-top: 2.4%;
+}
+
+.header-icons {
+  height: 1.5rem;
+}
+
+.site-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 2%;
+}
+
+.site-nav li {
+  float: right;
+  margin-top: 2.4%;
+  padding-right: 6%;
+}
