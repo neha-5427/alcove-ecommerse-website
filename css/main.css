@@ -1,3 +1,20 @@
+* {
+  background-color: #e9e7db;
+  margin: 0;
+}
+
+/* text styles */
+
+a {
+  text-decoration: none;
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 /* header */
 
 .wordmark {
@@ -8,6 +25,10 @@
 
 .header-icons {
   height: 1.5rem;
+}
+
+header {
+  background-color: #e9e7db;
 }
 
 .site-nav ul {
