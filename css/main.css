@@ -15,16 +15,83 @@ a {
   line-height: normal;
 }
 
+h1 {
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 238px;
+  left: 640px;
+  right: 323px;
+}
+
+h2 {
+  color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 311px;
+  left: 640px;
+  right: 323px;
+}
+
+h3 {
+  color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 354px;
+  left: 640px;
+  right: 323px;
+}
+
+p {
+  color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 404px;
+  left: 640px;
+  right: 323px;
+}
+
+p1 {
+    color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 504px;
+  left: 640px;
+  right: 323px;
+}
+
 /* header */
 
 .wordmark {
-  height: 2rem;
-  padding-left: 2%;
-  margin-top: 2.4%;
+  height: 44.83px;
+  margin-left: 75px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .header-icons {
-  height: 1.5rem;
+  height: 32px;
+  width: 32px;
 }
 
 header {
@@ -34,13 +101,21 @@ header {
 .site-nav ul {
   list-style-type: none;
   padding-left: 0;
-  padding-right: 2%;
+  padding-right: 74px;
   display: inline;
   justify-content: space-between;
 }
 
 .site-nav li {
   float: right;
-  margin-top: 2.4%;
-  padding-right: 6%;
+  margin-top: 41px;
+  padding-right: 74px;
+}
+
+/* staffpicks */
+
+.staffpick {
+  width: 588px;
+  height: 658px;
+  aspect-ratio: 42/47;
 }
