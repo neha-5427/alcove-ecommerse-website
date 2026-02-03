@@ -68,7 +68,7 @@ p {
 }
 
 p1 {
-    color: #402928;
+  color: #402928;
   font-family: "Acumin Pro";
   font-size: 14px;
   font-style: normal;
@@ -118,4 +118,16 @@ header {
   width: 588px;
   height: 658px;
   aspect-ratio: 42/47;
+}
+
+/* illustration */
+
+.homepage-illust {
+  position: absolute;
+  left: 1080px;
+  top: 478px;
+  background-color: transparent;
+  width: 460px;
+  height: 628px;
+  transform: rotate(-90deg);
 }
