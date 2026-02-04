@@ -3,6 +3,68 @@
   margin: 0;
 }
 
+* {
+  background-color: #e9e7db;
+  margin: 0;
+}
+
+/* text styles */
+
+a {
+  text-decoration: none;
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h1 {
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h2 {
+  color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3 {
+  color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p1 {
+  color: #402928;
+  font-family: "Acumin Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 /* header */
 
 .wordmark {
