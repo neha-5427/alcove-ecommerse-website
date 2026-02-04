@@ -1,10 +1,4 @@
 * {
-  background-color: #e9e7db;
-  margin: 0;
-}
-
-* {
-  background-color: #e9e7db;
   margin: 0;
 }
 
@@ -56,8 +50,9 @@ p {
   line-height: normal;
 }
 
-p1 {
-  color: #402928;
+button {
+  color: #e9e7db;
+  text-align: center;
   font-family: "Acumin Pro";
   font-size: 14px;
   font-style: normal;
@@ -65,11 +60,28 @@ p1 {
   line-height: normal;
 }
 
-button {
+.footer-title {
   color: #e9e7db;
-  text-align: center;
+  font-family: "Hoss Round";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer ul {
+  color: #e9e7db;
   font-family: "Acumin Pro";
-  font-size: 14px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+small {
+  color: #e9e7db;
+  font-family: "Acumin Pro";
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -97,19 +109,27 @@ header {
   list-style-type: none;
   padding-left: 0;
   padding-right: 74px;
-  display: inline;
+  display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  min-width: 165px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
 }
 
 .site-nav li {
   float: right;
   margin-top: 41px;
   padding-right: 74px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* staffpicks */
 
 body {
+  background-color: #e9e7db;
   margin: 0;
 }
 
@@ -153,11 +173,67 @@ button {
 .illustration {
   box-sizing: border-box;
   grid-row: 7;
-  align-items: flex-start;
+  display: flex;
+  align-items: center;
   margin-left: 25rem;
   height: auto;
-  max-width: 50%;
+  max-width: 338px;
+  max-height: 462px;
   width: 100%;
   transform: rotate(-90deg);
   background-color: transparent;
+}
+
+/* footer */
+
+footer {
+  margin-top: 0rem;
+  background-color: #402928;
+  color: #e9e7db;
+}
+
+footer ul li {
+  box-sizing: border-box;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 5rem;
+  padding-top: 40px;
+}
+
+small {
+  color: #e9e7db;
+  display: flex;
+  padding-bottom: 40px;
+  padding-left: 7rem;
+}
+
+.telephone {
+  background: url(../img/icons/white_telephone_icon.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  padding-right: 3rem;
+}
+
+.instagram {
+  background: url(../img/icons/white_instagram_icon.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  padding-right: 3rem;
+}
+
+.mail {
+  background: url(../img/icons/white_mail_icon.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  padding-right: 3rem;
 }
