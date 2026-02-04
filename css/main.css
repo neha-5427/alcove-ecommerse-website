@@ -109,6 +109,9 @@ header {
   list-style-type: none;
   padding-left: 0;
   padding-right: 74px;
+
+/* the following 2 lines of code are adapted from https://www.reddit.com/r/css/comments/1gvbks2/how_to_prevent_nav_bar_rollover_when_window_is/ */
+
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -122,6 +125,9 @@ header {
   float: right;
   margin-top: 41px;
   padding-right: 74px;
+
+/* the following 2 lines of code are adapted from https://stackoverflow.com/questions/572298/how-to-stop-text-from-taking-up-more-than-1-line */
+
   white-space: nowrap;
   overflow: hidden;
 }
@@ -132,6 +138,8 @@ body {
   background-color: #e9e7db;
   margin: 0;
 }
+
+/* the following 10 lines of code are adapted from https://codepen.io/xenvi/pen/JjXoeWz */
 
 .suggestion-container {
   display: grid;
