@@ -91,9 +91,8 @@ small {
 
 .wordmark {
   height: 44.83px;
-  margin-left: 75px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-left: 4.688rem;
+
 }
 
 .header-icons {
@@ -103,28 +102,29 @@ small {
 
 header {
   background-color: #e9e7db;
+  margin-bottom: 0.313rem;
+  margin-top: 1.563rem;
+  margin-bottom: 1.563rem;
 }
 
 .site-nav ul {
   list-style-type: none;
   padding-left: 0;
-  padding-right: 74px;
 
 /* the following 2 lines of code are adapted from https://www.reddit.com/r/css/comments/1gvbks2/how_to_prevent_nav_bar_rollover_when_window_is/ */
 
-  display: flex;
+  display: inline-flex;
+  margin-left: 40rem;
   flex-wrap: nowrap;
   justify-content: space-between;
-  min-width: 165px;
-  position: absolute;
-  top: 20px;
-  right: 0px;
+  min-width: 10.313rem;
 }
 
 .site-nav li {
   float: right;
-  margin-top: 41px;
-  padding-right: 74px;
+  margin-top: 2rem;
+  padding-right: 4.625rem;
+  
 
 /* the following 2 lines of code are adapted from https://stackoverflow.com/questions/572298/how-to-stop-text-from-taking-up-more-than-1-line */
 
@@ -164,7 +164,7 @@ body {
   gap: 1rem;
   align-content: start;
   overflow-y: auto;
-  max-width: 1280px;
+  max-width: 80rem;
   overflow: hidden;
 }
 
@@ -206,7 +206,7 @@ footer ul li {
   display: inline-flex;
   align-items: center;
   padding: 5rem;
-  padding-top: 40px;
+  padding-top: 2.5rem;
 }
 
 small {
