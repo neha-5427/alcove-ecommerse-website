@@ -257,6 +257,7 @@ small {
 /* media queries */
 
 /* media querie 1 - ipad pro */
+/* the following code on adjusting navigation bar into a hamburger menu was done using: https://www.youtube.com/watch?v=P8YuWEkTeuE&t=7020s */
 
 @media screen and (max-width: 1050px) {
   .site-nav ul {
