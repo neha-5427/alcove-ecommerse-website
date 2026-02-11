@@ -99,9 +99,16 @@ small {
   width: 32px;
 }
 
+.mobile-menu {
+  display: none;
+  align-items: center;
+  float: right;
+  padding-right: 4.625rem;
+  margin-top: 2rem;
+}
+
 header {
   background-color: #e9e7db;
-  margin-bottom: 0.313rem;
   margin-top: 1.563rem;
   margin-bottom: 1.563rem;
 }
@@ -172,7 +179,7 @@ body {
 button {
   width: fit-content;
   padding: 0.5rem 1.5rem;
-  background: #9c8a3b;
+  background: #8f7e2d;
   color: white;
   border: none;
   border-radius: 6px;
@@ -245,4 +252,91 @@ small {
   height: 24px;
   box-sizing: border-box;
   padding-right: 3rem;
+}
+
+/* media queries */
+
+/* media querie 1 - ipad pro */
+
+@media screen and (max-width: 1050px) {
+  .site-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 40rem;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 10.313rem;
+
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    background-color: #e9e7db;
+    box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
+
+    padding: 80px 0 0 10px;
+  }
+
+  .mobile-menu {
+    display: flex;
+    align-items: center;
+    float: right;
+    padding-right: 4.625rem;
+    margin-top: 2rem;
+  }
+
+  .suggestion-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh 50vh;
+    align-content: start;
+  }
+
+  .image1 {
+    background-image: url("../img/visuals/staffpick1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .illustration {
+    box-sizing: border-box;
+    grid-row: 7;
+    display: flex;
+    align-items: center;
+    margin-left: 45rem;
+    height: auto;
+    max-width: 338px;
+    max-height: 462px;
+    width: 100%;
+    transform: rotate(-90deg);
+    background-color: transparent;
+  }
+
+  footer {
+    margin-top: 0rem;
+    background-color: #402928;
+    color: #e9e7db;
+  }
+
+  footer ul li {
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  small {
+    color: #e9e7db;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-left: 7rem;
+    justify-content: center;
+  }
 }
