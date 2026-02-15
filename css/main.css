@@ -54,7 +54,7 @@ button {
   color: #e9e7db;
   text-align: center;
   font-family: "Acumin Pro";
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -178,7 +178,7 @@ body {
 
 button {
   width: fit-content;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   background: #8f7e2d;
   color: white;
   border: none;
@@ -254,9 +254,61 @@ small {
   padding-right: 3rem;
 }
 
+/* catalogue page specific */
+
+* {
+  box-sizing: border-box;
+}
+
+.catalogue-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 1rem;
+}
+
+.main-catalogue {
+  max-width: none;
+  margin: 0;
+}
+
+.catalogue-item {
+  padding: 2rem;
+}
+
+.catalogue-item {
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+}
+
+.catalogue-item > img {
+  order: -1;
+  align-self: center;
+}
+
+.book-image {
+  display: grid;
+  width: 100%;
+}
+
+.book-details-flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.add-to-cart-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 /* media queries */
 
 /* media querie 1 - ipad pro */
+
+/* homepage */
+
 /* the following code on adjusting navigation bar into a hamburger menu was done using: https://www.youtube.com/watch?v=P8YuWEkTeuE&t=7020s */
 
 @media screen and (max-width: 1050px) {
@@ -341,3 +393,6 @@ small {
     justify-content: center;
   }
 }
+
+/* catalogue page */
+
