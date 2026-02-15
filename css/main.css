@@ -334,8 +334,7 @@ small {
 .book-details-flexbox {
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem;
-  padding: 0;
+  margin-top: 0.5rem;
 }
 
 .add-to-cart-flexbox {
@@ -344,6 +343,13 @@ small {
   justify-content: flex-end;
   margin-left: 2rem;
   margin-right: 0;
+}
+
+.bookmark-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
 }
 
 /* media queries */
