@@ -41,6 +41,15 @@ h3 {
   line-height: normal;
 }
 
+h4 {
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 p {
   color: #402928;
   font-family: "Acumin Pro";
