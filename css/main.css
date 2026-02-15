@@ -15,6 +15,11 @@ a {
 }
 
 h1 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+h2 {
   color: #402928;
   font-family: "Hoss Round";
   font-size: 35px;
@@ -23,7 +28,7 @@ h1 {
   line-height: normal;
 }
 
-h2 {
+h3 {
   color: #402928;
   font-family: "Acumin Pro";
   font-size: 30px;
@@ -32,10 +37,19 @@ h2 {
   line-height: normal;
 }
 
-h3 {
+h4 {
   color: #402928;
   font-family: "Acumin Pro";
   font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h5 {
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -89,22 +103,26 @@ small {
 
 /* header */
 
+.header-container {
+  display: block;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+
+.header-container h1 {
+  float: left;
+  width: 45px;
+}
+
 .wordmark {
-  height: 44.83px;
-  margin-left: 4.688rem;
+  height: 38px;
+  margin-left: 0rem;
 }
 
 .header-icons {
   height: 32px;
   width: 32px;
-}
-
-.mobile-menu {
-  display: none;
-  align-items: center;
-  float: right;
-  padding-right: 4.625rem;
-  margin-top: 2rem;
 }
 
 header {
@@ -119,9 +137,10 @@ header {
 
   /* the following 2 lines of code are adapted from https://www.reddit.com/r/css/comments/1gvbks2/how_to_prevent_nav_bar_rollover_when_window_is/ */
 
-  display: inline-flex;
+  display: flex;
   margin-left: 40rem;
   flex-wrap: nowrap;
+  align-items: center;
   justify-content: space-between;
   min-width: 10.313rem;
   /* position: absolute;
@@ -131,8 +150,7 @@ header {
 
 .site-nav li {
   float: right;
-  margin-top: 2rem;
-  padding-right: 4.625rem;
+  margin-top: 0rem;
 
   /* the following 2 lines of code are adapted from https://stackoverflow.com/questions/572298/how-to-stop-text-from-taking-up-more-than-1-line */
 
@@ -178,7 +196,7 @@ body {
 
 button {
   width: fit-content;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
   color: white;
   border: none;
@@ -262,7 +280,7 @@ small {
 
 .catalogue-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(18.5%, 1fr));
   grid-gap: 1rem;
 }
 
@@ -281,6 +299,46 @@ small {
   margin: 0;
 }
 
+.catalogue-item:nth-child(1) {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+
+.catalogue-item:nth-child(2) {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.catalogue-item:nth-child(3) {
+  grid-column: 4 / 5;
+  grid-row: 1;
+}
+
+.catalogue-item:nth-child(4) {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.catalogue-item:nth-child(5) {
+  grid-column: 3 / 4;
+  grid-row: 2;
+}
+
+.catalogue-item:nth-child(6) {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+
+.catalogue-item:nth-child(7) {
+  grid-column: 3 / 4;
+  grid-row: 3;
+}
+
+.catalogue-item:nth-child(8) {
+  grid-column: 4 / 5;
+  grid-row: 3;
+}
+
 .catalogue-item > img {
   order: -1;
   align-self: center;
@@ -294,105 +352,20 @@ small {
 .book-details-flexbox {
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  margin-top: 0.5rem;
 }
 
 .add-to-cart-flexbox {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-left: 2rem;
+  margin-right: 0;
 }
 
-/* media queries */
-
-/* media querie 1 - ipad pro */
-
-/* homepage */
-
-/* the following code on adjusting navigation bar into a hamburger menu was done using: https://www.youtube.com/watch?v=P8YuWEkTeuE&t=7020s */
-
-@media screen and (max-width: 1050px) {
-  .site-nav ul {
-    list-style-type: none;
-    padding-left: 0;
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 40rem;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    min-width: 10.313rem;
-
-    position: fixed;
-    top: 0;
-    right: -300px;
-    height: 100vh;
-    background-color: #e9e7db;
-    box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
-
-    padding: 80px 0 0 10px;
-  }
-
-  .mobile-menu {
-    display: flex;
-    align-items: center;
-    float: right;
-    padding-right: 4.625rem;
-    margin-top: 2rem;
-  }
-
-  .suggestion-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50vh 50vh;
-    align-content: start;
-  }
-
-  .image1 {
-    background-image: url("../img/visuals/staffpick1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .illustration {
-    box-sizing: border-box;
-    grid-row: 7;
-    display: flex;
-    align-items: center;
-    margin-left: 45rem;
-    height: auto;
-    max-width: 338px;
-    max-height: 462px;
-    width: 100%;
-    transform: rotate(-90deg);
-    background-color: transparent;
-  }
-
-  footer {
-    margin-top: 0rem;
-    background-color: #402928;
-    color: #e9e7db;
-  }
-
-  footer ul li {
-    box-sizing: border-box;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
-  small {
-    color: #e9e7db;
-    display: flex;
-    align-items: center;
-    padding-bottom: 40px;
-    padding-left: 7rem;
-    justify-content: center;
-  }
+.bookmark-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
 }
-
-/* catalogue page */
-
