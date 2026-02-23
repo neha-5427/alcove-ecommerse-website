@@ -117,7 +117,7 @@ small {
 
 .wordmark {
   height: 38px;
-  margin-left: 0rem;
+  margin-left: 0vw;
 }
 
 .header-icons {
@@ -127,8 +127,8 @@ small {
 
 header {
   background-color: #e9e7db;
-  margin-top: 1.563rem;
-  margin-bottom: 1.563rem;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .site-nav ul {
@@ -138,14 +138,10 @@ header {
   /* the following 2 lines of code are adapted from https://www.reddit.com/r/css/comments/1gvbks2/how_to_prevent_nav_bar_rollover_when_window_is/ */
 
   display: flex;
-  margin-left: 40rem;
+  margin-left: 45vw;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  min-width: 10.313rem;
-  /* position: absolute;
-  top: 20px;
-  right: 0px; */
 }
 
 .site-nav li {
@@ -195,7 +191,8 @@ body {
 }
 
 button {
-  width: fit-content;
+  width: 7vw;
+  max-height: 5vh;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
   color: white;
