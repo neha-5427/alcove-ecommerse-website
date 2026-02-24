@@ -106,7 +106,7 @@ small {
 .header-container {
   display: block;
   padding: 0 20px;
-  max-width: 1240px;
+  /* max-width: 1240px; */
   background-color: #e9e7db;
   margin-top: 3vh;
   margin-bottom: 3vh;
@@ -137,12 +137,12 @@ small {
   margin-left: 45vw;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
 }
 
 .site-nav li {
-  float: right;
   margin-top: 0rem;
+  margin-right: 5vw;
 
   /* the following 2 lines of code are adapted from https://stackoverflow.com/questions/572298/how-to-stop-text-from-taking-up-more-than-1-line */
 
