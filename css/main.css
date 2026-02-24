@@ -105,19 +105,20 @@ small {
 
 .header-container {
   display: block;
-  margin-left: 5vw;
   padding: 0 20px;
   max-width: 1240px;
+  background-color: #e9e7db;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .header-container h1 {
   float: left;
-  width: 45px;
 }
 
 .wordmark {
   height: 38px;
-  margin-left: 0vw;
+  margin-left: 5vw;
 }
 
 .header-icons {
@@ -125,11 +126,6 @@ small {
   width: 32px;
 }
 
-header {
-  background-color: #e9e7db;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-}
 
 .site-nav ul {
   list-style-type: none;
