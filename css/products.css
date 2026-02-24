@@ -79,10 +79,9 @@
   margin-top: 0.5rem;
 }
 
-.add-to-cart-flexbox {
+.action-flexbox {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   margin-left: 2rem;
   margin-right: 0;
 }
@@ -92,4 +91,5 @@
   height: 15px;
   margin-left: 4rem;
   margin-bottom: 2rem;
+  justify-content: space-between;
 }
