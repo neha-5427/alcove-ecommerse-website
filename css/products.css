@@ -144,3 +144,11 @@
 }
 
 }
+
+/* media query 2 - max-width: 550px HEADER */
+@media screen and (max-width: 550px) {
+  .catalogue-grid {
+  display: flex;
+  flex-direction: column;
+  }
+}
