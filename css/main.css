@@ -246,7 +246,7 @@ body {
 
 button {
   width: 5.8vw;
-  height: fit-content;
+  height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
   color: white;
@@ -299,7 +299,7 @@ button {
 
 button {
   width: fit-content;
-  max-height: 5vh;
+  height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
   color: white;
@@ -339,7 +339,7 @@ button {
 
 button {
   width: fit-content;
-  max-height: 5vh;
+  height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
   color: white;
