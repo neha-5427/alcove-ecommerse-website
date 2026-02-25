@@ -105,19 +105,20 @@ small {
 
 .header-container {
   display: block;
-  margin: 0 auto;
   padding: 0 20px;
-  max-width: 1240px;
+  /* max-width: 1240px; */
+  background-color: #e9e7db;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .header-container h1 {
   float: left;
-  width: 45px;
 }
 
 .wordmark {
   height: 38px;
-  margin-left: 0vw;
+  margin-left: 5vw;
 }
 
 .header-icons {
@@ -125,11 +126,6 @@ small {
   width: 32px;
 }
 
-header {
-  background-color: #e9e7db;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-}
 
 .site-nav ul {
   list-style-type: none;
@@ -141,18 +137,76 @@ header {
   margin-left: 45vw;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
 }
 
 .site-nav li {
-  float: right;
   margin-top: 0rem;
+  margin-right: 5vw;
 
   /* the following 2 lines of code are adapted from https://stackoverflow.com/questions/572298/how-to-stop-text-from-taking-up-more-than-1-line */
 
   white-space: nowrap;
   overflow: hidden;
 }
+
+/* media query 1 - (max-width: 867px) HEADER */
+@media screen and (max-width: 867px) {
+  a {
+  text-decoration: none;
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+}
+
+/* media query 2 - max-width: 550px HEADER */
+@media screen and (max-width: 550px) {
+a {
+  text-decoration: none;
+  color: #402928;
+  font-family: "Hoss Round";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-container h1 {
+  display: flex;
+  align-content: center;
+  width: 45px;
+}
+
+.wordmark {
+  height: 38px;
+  margin-left: 80%;
+  margin-bottom: 3vh;
+}
+
+.site-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .site-nav ul {
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  .header-icons {
+    height: 20px;
+    width: 20px;
+  }
+
+}
+
+
 
 /* staffpicks */
 
@@ -191,8 +245,8 @@ body {
 }
 
 button {
-  width: 7vw;
-  max-height: 5vh;
+  width: 5.8vw;
+  height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
   color: white;
@@ -214,6 +268,87 @@ button {
   transform: rotate(-90deg);
   background-color: transparent;
 }
+
+/* media query 1 - (max-width: 867px) STAFFPICK */
+@media screen and (max-width: 867px) {
+  .suggestion-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh 60vh;
+    align-content: start;
+    height: 160vh;
+  }
+
+  .details {
+    grid-row: 2 / 3;
+    padding-top: 3vh;
+  }
+
+  .illustration {
+  box-sizing: border-box;
+  grid-row: 7;
+  display: none;
+  align-items: center;
+  margin-left: 25rem;
+  height: auto;
+  max-width: 338px;
+  max-height: 462px;
+  width: 100%;
+  transform: rotate(-90deg);
+  background-color: transparent;
+}
+
+button {
+  width: fit-content;
+  height: auto;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #8f7e2d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+}
+
+/* media query 2 - max-width: 550px STAFFPICK */
+@media screen and (max-width: 550px) {
+  .suggestion-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh 80vh;
+    align-content: start;
+    height: 180vh;
+  }
+
+  .details {
+    grid-row: 2 / 3;
+    padding-top: 3vh;
+  }
+
+  .illustration {
+  box-sizing: border-box;
+  grid-row: 7;
+  display: none;
+  align-items: center;
+  margin-left: 25rem;
+  height: auto;
+  max-width: 338px;
+  max-height: 462px;
+  width: 100%;
+  transform: rotate(-90deg);
+  background-color: transparent;
+}
+
+button {
+  width: fit-content;
+  height: auto;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #8f7e2d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+}
+
 
 /* footer */
 
@@ -268,3 +403,80 @@ small {
   box-sizing: border-box;
   padding-right: 3rem;
 }
+
+/* media query 1 - (max-width: 1052px) FOOTER */
+@media screen and (max-width: 1052px) {
+  .footer-title {
+  color: #e9e7db;
+  font-family: "Hoss Round";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+footer ul {
+  color: #e9e7db;
+  font-family: "Acumin Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+small {
+  color: #e9e7db;
+  font-family: "Acumin Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 1rem;
+  align-self: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer-container li {
+  padding: 1rem 5rem 1rem 0;
+}
+
+
+
+  .telephone {
+  background: url(../img/icons/white_telephone_icon.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-right: 3rem;
+}
+
+.instagram {
+  background: url(../img/icons/white_instagram_icon.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-right: 3rem;
+}
+
+.mail {
+  background: url(../img/icons/white_mail_icon.svg);
+  background-repeat: no-repeat;
+  display: flex
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-right: 3rem;
+}
+}
+
+
+
