@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/products.css" />
     <link rel="stylesheet" href="css/productView.css" />
+    <script src="js/bookmark.js" defer></script>
+    <script src="js/cart.js" defer></script>
   </head>
   <body>
     <!-- Header: any changes made in index should be updated here -->
@@ -57,11 +59,13 @@
               <p>₹99</p>
             </a>
             <div class="action-flexbox">
-              <div class="bookmark-icon">
-                <a href="#"
-                  ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                /></a>
-              </div>
+              <img
+                class="bookmark-icon"
+                data-id="1"
+                data-img="img/visuals/book1.jpg"
+                src="img/icons/bookmark_outline.svg"
+                alt="bookmark_icon"
+              />
               <button>Add to cart</button>
             </div>
           </div>
