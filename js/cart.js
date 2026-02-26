@@ -1,3 +1,4 @@
+
 const cartButtons = document.getElementsByClassName("add-to-cart-button");
 
 let cartArr;

@@ -338,7 +338,7 @@ button {
 }
 
 button {
-  width: fit-content;
+  width: 23vw;
   height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;

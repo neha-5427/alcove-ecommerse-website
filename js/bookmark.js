@@ -36,6 +36,7 @@ for (let i = 0; i < bookmarkIcons.length; i++) {
 function saveBook() {
   const bookmark = {
     id: this.dataset.id,
+    name: this.dataset.name,
     img: this.dataset.img,
   };
 
