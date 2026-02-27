@@ -1,3 +1,5 @@
+// displaying cart 
+
 const cartGrid = document.querySelector(".cart-grid");
 
 let cartArr = JSON.parse(localStorage.cart);

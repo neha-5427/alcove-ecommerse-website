@@ -244,7 +244,7 @@ body {
   overflow: hidden;
 }
 
-button {
+.add-to-cart-button {
   width: 5.8vw;
   height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
@@ -254,6 +254,19 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.remove-button {
+  display: none;
+  width: 5.8vw;
+  height: auto;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #be5846;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 
 .illustration {
   box-sizing: border-box;
@@ -297,7 +310,7 @@ button {
   background-color: transparent;
 }
 
-button {
+.add-to-cart-button {
   width: fit-content;
   height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
@@ -307,6 +320,19 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.remove-button {
+  display: none;
+  width: fit-content;
+  height: auto;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #be5846;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 }
 
 /* media query 2 - max-width: 550px STAFFPICK */
@@ -337,11 +363,23 @@ button {
   background-color: transparent;
 }
 
-button {
+.add-to-cart-button {
   width: 23vw;
   height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-button {
+  display: none;
+  width: 23vw;
+  height: auto;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #be5846;
   color: white;
   border: none;
   border-radius: 6px;

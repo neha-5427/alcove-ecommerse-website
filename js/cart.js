@@ -1,4 +1,4 @@
-
+//adding to cart
 const cartButtons = document.getElementsByClassName("add-to-cart-button");
 
 let cartArr;
@@ -20,6 +20,7 @@ function buyBook() {
     img: this.dataset.img,
   };
 
+  // prevent multiple copies of the same book (not possible since it is second hand bookstore)
   for (let i = 0; i < cartArr.length; i++) {
     if (cartArr[i].id === book.id) {
       cartArr.splice(i, 1);
@@ -30,4 +31,47 @@ function buyBook() {
   cartArr.push(book);
 
   localStorage.cart = JSON.stringify(cartArr);
+
+  // hide this button
+  this.style.display = "none";
+
+  // access and show remove button
+  const removeButtons = document.getElementsByClassName("remove-button");
+  for (let i = 0; i < removeButtons.length; i++) {
+    if (removeButtons[i].dataset.id === book.id) {
+      removeButtons[i].style.display = "inline-block";
+    }
+  }
+}
+
+// remove from cart
+const removeButtons = document.getElementsByClassName("remove-button");
+
+for (let i = 0; i < removeButtons.length; i++) {
+  removeButtons[i].addEventListener("click", removeBook);
+}
+
+function removeBook() {
+  const id = this.dataset.id;
+
+  // remove from array
+  for (let i = 0; i < cartArr.length; i++) {
+    if (cartArr[i].id === id) {
+      cartArr.splice(i, 1);
+      break;
+    }
+  }
+
+  localStorage.cart = JSON.stringify(cartArr);
+
+  // hide this button
+  this.style.display = "none";
+
+  //access and show add to cart button
+  const cartButtons = document.getElementsByClassName("add-to-cart-button");
+  for (let i = 0; i < cartButtons.length; i++) {
+    if (cartButtons[i].dataset.id === id) {
+      cartButtons[i].style.display = "inline-block";
+    }
+  }
 }
