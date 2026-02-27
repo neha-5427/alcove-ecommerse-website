@@ -313,8 +313,10 @@ body {
 .add-to-cart-button {
   width: fit-content;
   height: auto;
+  margin-top: 1rem;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
+  font-size: 10px;
   color: white;
   border: none;
   border-radius: 6px;
@@ -325,8 +327,10 @@ body {
   display: none;
   width: fit-content;
   height: auto;
+  margin-top: 1rem;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #be5846;
+  font-size: 10px;
   color: white;
   border: none;
   border-radius: 6px;
@@ -515,6 +519,7 @@ small {
   padding-right: 3rem;
 }
 }
+
 
 
 

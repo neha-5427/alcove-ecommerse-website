@@ -1,6 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
 .cart-grid {
   display: grid;
-  gap: 1vw;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  padding: 5vw; 
+  grid-template-columns: repeat(4, minmax(18.5%, 1fr));
+  grid-template-rows: auto;
+  gap: 0.5vw;
+  margin: 0 3vw 0 3vw;
+}
+
+img {
+  width: 100%;
+}
+
+
+main h2 {
+    margin-top: 7vh;
+    justify-self: center;
 }

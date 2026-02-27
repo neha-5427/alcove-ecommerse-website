@@ -28,6 +28,8 @@ function buyBook() {
     id: this.dataset.id,
     name: this.dataset.name,
     img: this.dataset.img,
+    author: this.dataset.author,
+    price: this.dataset.price,
   };
 
   // prevent multiple copies of the same book (not possible since it is second hand bookstore)
