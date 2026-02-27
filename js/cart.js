@@ -1,5 +1,6 @@
 //adding to cart
 const cartButtons = document.getElementsByClassName("add-to-cart-button");
+const removeButtons = document.getElementsByClassName("remove-button");
 
 let cartArr;
 
@@ -7,6 +8,15 @@ if (localStorage.cart) {
   cartArr = JSON.parse(localStorage.cart);
 } else {
   cartArr = [];
+}
+
+for (let i = 0; i < cartButtons.length; i++) {
+  for (let j = 0; j < cartArr.length; j++) {
+    if (cartButtons[i].dataset.id === cartArr[j].id) {
+      cartButtons[i].style.display = "none";
+      removeButtons[i].style.display = "inline-block";
+    }
+  }
 }
 
 for (let i = 0; i < cartButtons.length; i++) {
@@ -45,7 +55,6 @@ function buyBook() {
 }
 
 // remove from cart
-const removeButtons = document.getElementsByClassName("remove-button");
 
 for (let i = 0; i < removeButtons.length; i++) {
   removeButtons[i].addEventListener("click", removeBook);
