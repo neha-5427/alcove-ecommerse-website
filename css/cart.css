@@ -1,21 +1,25 @@
-* {
-  box-sizing: border-box;
-}
-
 .cart-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(18.5%, 1fr));
-  grid-template-rows: auto;
-  gap: 0.5vw;
-  margin: 0 3vw 0 3vw;
+  grid-gap: 1rem;
 }
 
-img {
+.book-img {
   width: 100%;
 }
 
+main h3 {
+  margin-top: 7vh;
+  justify-self: center;
+}
 
-main h2 {
-    margin-top: 7vh;
-    justify-self: center;
+/* media query 1 - max-width: 550px CART GRID */
+@media screen and (max-width: 550px) {
+  .cart-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  main h2 {
+    font-size: 20px;
+  }
 }

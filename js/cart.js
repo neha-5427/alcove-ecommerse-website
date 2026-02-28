@@ -85,4 +85,62 @@ function removeBook() {
       cartButtons[i].style.display = "inline-block";
     }
   }
+  // the use of .closest is adapted from ChatGPT: https://chatgpt.com/share/69a2d97c-de04-8013-a5f5-1f3f6e3432e0
+  const cartItem = this.closest(".catalogue-item");
+  if (cartItem) {
+    cartItem.remove();
+  }
+}
+
+// displaying cart
+//the following use of innerHTML was adapted from ChatGPT: https://chatgpt.com/share/69a171a1-6700-8013-a593-688bb50f12e7
+
+const cartGrid = document.querySelector(".cart-grid");
+
+for (let i = 0; i < cartArr.length; i++) {
+  const item = document.createElement("div");
+  item.classList.add("catalogue-item");
+
+  item.innerHTML = `
+  
+    <div class="book-flexbox">
+      <a href="#">
+      <img 
+        class="book-img"
+        data-id="${cartArr[i].id}"
+        data-name="${cartArr[i].name}"
+        data-img="${cartArr[i].img}"
+        data-price= "${cartArr[i].price}"
+        data-author= "${cartArr[i].author}"
+        src="${cartArr[i].img}">
+      </a>
+      <div class="book-details-flexbox">
+          <a href="#">
+           <h5 class="book-name">${cartArr[i].name}</h5>
+           <p>${cartArr[i].author}</p>
+           <p>${cartArr[i].price}</p>
+         </a>
+
+        <div class= "action-flexbox">
+          <button
+            class="remove-button"
+            data-id="${cartArr[i].id}"
+            data-name="${cartArr[i].name}"
+            data-img="${cartArr[i].img}"
+            style="display:inline">
+                  Remove
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  cartGrid.appendChild(item);
+
+  // attach remove listeners AFTER items exist
+  const cartRemoveButtons = document.getElementsByClassName("remove-button");
+
+  for (let i = 0; i < cartRemoveButtons.length; i++) {
+    cartRemoveButtons[i].addEventListener("click", removeBook);
+  }
 }

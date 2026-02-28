@@ -446,8 +446,8 @@ small {
   padding-right: 3rem;
 }
 
-/* media query 1 - (max-width: 1052px) FOOTER */
-@media screen and (max-width: 1052px) {
+/* media query 1 - (max-width: 867px) FOOTER */
+@media screen and (max-width: 867px) {
   .footer-title {
   color: #e9e7db;
   font-family: "Hoss Round";
