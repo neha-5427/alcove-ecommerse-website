@@ -324,7 +324,7 @@ body {
 
 .remove-button {
   display: none;
-  width: fit-content;
+  width: 8.6vw;
   height: auto;
   margin-top: 1rem;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
