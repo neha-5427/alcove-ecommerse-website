@@ -86,7 +86,7 @@ function removeBook() {
     }
   }
   // the use of .closest is adapted from ChatGPT: https://chatgpt.com/share/69a2d97c-de04-8013-a5f5-1f3f6e3432e0
-  const cartItem = this.closest(".catalogue-item");
+  const cartItem = this.closest(".cart-item");
   if (cartItem) {
     cartItem.remove();
   }
@@ -99,10 +99,10 @@ const cartGrid = document.querySelector(".cart-grid");
 
 for (let i = 0; i < cartArr.length; i++) {
   const item = document.createElement("div");
-  item.classList.add("catalogue-item");
+  item.classList.add("cart-item");
 
   item.innerHTML = `
-  
+  <div class="catalogue-item">
     <div class="book-flexbox">
       <a href="#">
       <img 
@@ -133,6 +133,7 @@ for (let i = 0; i < cartArr.length; i++) {
         </div>
       </div>
     </div>
+  </div>
   `;
 
   cartGrid.appendChild(item);
