@@ -13,7 +13,17 @@ main h3 {
   justify-self: center;
 }
 
-/* media query 1 - max-width: 550px CART GRID */
+/* media query 1 - (max-width: 867px) CART GRID */
+
+@media screen and (max-width: 867px) {
+  .cart-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(18.5%, 1fr));
+    grid-gap: 1rem;
+  }
+}
+
+/* media query 2 - max-width: 550px CART GRID */
 @media screen and (max-width: 550px) {
   .cart-grid {
     display: flex;
