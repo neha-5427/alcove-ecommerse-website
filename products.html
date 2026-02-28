@@ -7,16 +7,26 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="https://use.typekit.net/euc7edd.css" />
     <link rel="stylesheet" href="css/products.css" />
+    <!-- <script src="js/main.js" defer></script> -->
+    <script src="js/bookmark.js" defer></script>
+    <script src="js/cart.js" defer></script>
   </head>
   <body>
     <!-- Header: any changes made in index should be updated here -->
-     <header class="header-container">
+    <header class="header-container">
       <nav class="site-nav">
-        <h1><a href="index.html"> <img class="wordmark" src="img/brand assets/word brown.svg" alt="wordmark"></a></h1>
+        <h1>
+          <a href="index.html">
+            <img
+              class="wordmark"
+              src="img/brand assets/word brown.svg"
+              alt="wordmark"
+          /></a>
+        </h1>
         <ul>
           <li><a href="products.html">Catalogue</a></li>
           <li><a href="#">About Us</a></li>
-            <li>
+          <li>
             <a href="#"
               ><img
                 class="header-icons"
@@ -25,7 +35,7 @@
             /></a>
           </li>
           <li>
-            <a href="#"
+            <a href="cart.html"
               ><img
                 class="header-icons"
                 src="img/icons/cart_icon.svg"
@@ -52,12 +62,34 @@
                 <p>₹99</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="1"
+                  data-name="Walking in the Woods"
+                  data-img="img/visuals/book1.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="1"
+                  data-name="Walking in the Woods"
+                  data-img="img/visuals/book1.jpg"
+                  data-author="Yoshifumi Miyazaki"
+                  data-price="₹99"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="1"
+                  data-name="Walking in the Woods"
+                  data-img="img/visuals/book1.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>
@@ -75,12 +107,34 @@
                 <p>₹149</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="2"
+                  data-name="Tender Is the Flesh"
+                  data-img="img/visuals/book2.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="2"
+                  data-name="Tender Is the Flesh"
+                  data-img="img/visuals/book2.jpg"
+                  data-author="Agustina Bazterrica"
+                  data-price="₹149"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="2"
+                  data-name="Tender Is the Flesh"
+                  data-img="img/visuals/book2.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>
@@ -101,12 +155,37 @@
                 <p>₹199</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="3"
+                  data-name="We Could Have Been Friends, My Father and I: A Palestinian
+                  Memoir"
+                  data-img="img/visuals/book3.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="3"
+                  data-name="We Could Have Been Friends, My Father and I: A Palestinian
+                  Memoir"
+                  data-img="img/visuals/book3.jpg"
+                  data-author="Raja Shehadeh"
+                  data-price="₹199"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="3"
+                  data-name="We Could Have Been Friends, My Father and I: A Palestinian
+                  Memoir"
+                  data-img="img/visuals/book3.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>
@@ -124,12 +203,34 @@
                 <p>₹119</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="4"
+                  data-name="Objects of Desire"
+                  data-img="img/visuals/book4.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="4"
+                  data-name="Objects of Desire"
+                  data-img="img/visuals/book4.jpg"
+                  data-author="Adrian Forty"
+                  data-price="₹119"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="4"
+                  data-name="Objects of Desire"
+                  data-img="img/visuals/book4.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>
@@ -149,12 +250,34 @@
                 <p>₹129</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="5"
+                  data-name="What We Talk About When We Talk About Love"
+                  data-img="img/visuals/book5.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="5"
+                  data-name="What We Talk About When We Talk About Love"
+                  data-img="img/visuals/book5.jpg"
+                  data-author="Raymond Carver"
+                  data-price="₹129"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="5"
+                  data-name="What We Talk About When We Talk About Love"
+                  data-img="img/visuals/book5.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>
@@ -172,12 +295,34 @@
                 <p>₹149</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="6"
+                  data-name="A Breath of Life"
+                  data-img="img/visuals/book6.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="6"
+                  data-name="A Breath of Life"
+                  data-img="img/visuals/book6.jpg"
+                  data-author="Clarice Lispector"
+                  data-price="₹149"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="6"
+                  data-name="A Breath of Life"
+                  data-img="img/visuals/book6.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>
@@ -195,12 +340,34 @@
                 <p>₹119</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="7"
+                  data-name="The Handmaid's Tale"
+                  data-img="img/visuals/book7.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="7"
+                  data-name="The Handmaid's Tale"
+                  data-img="img/visuals/book7.jpg"
+                  data-author="Margaret Atwood"
+                  data-price="₹119"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="7"
+                  data-name="The Handmaid's Tale"
+                  data-img="img/visuals/book7.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>
@@ -218,12 +385,34 @@
                 <p>₹129</p>
               </a>
               <div class="action-flexbox">
-                <div class="bookmark-icon">
-                  <a href="#"
-                    ><img src="img/icons/bookmark_icon.svg" alt="bookmark_icon"
-                  /></a>
-                </div>
-                <button>Add to cart</button>
+                
+                <img
+                  class="bookmark-icon"
+                  data-id="8"
+                  data-name="If We Were Villians"
+                  data-img="img/visuals/book8.jpg"
+                  src="img/icons/bookmark_outline.svg"
+                  alt="bookmark_outline"
+                />
+                
+                <button
+                  class="add-to-cart-button"
+                  data-id="8"
+                  data-name="If We Were Villians"
+                  data-img="img/visuals/book8.jpg"
+                  data-author="M.L. Rio"
+                  data-price="₹129"
+                >
+                  Add to cart
+                </button>
+                <button
+                  class="remove-button"
+                  data-id="8"
+                  data-name="If We Were Villians"
+                  data-img="img/visuals/book8.jpg"
+                >
+                  Remove
+                </button>
               </div>
             </div>
           </div>

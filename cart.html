@@ -3,20 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alcove</title>
+    <title>Your Cart</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <link rel="stylesheet" href="css/cart.css" />
     <link rel="stylesheet" href="https://use.typekit.net/euc7edd.css" />
-    <script src="js/main.js" defer></script>
     <script src="js/bookmark.js" defer></script>
+    <script src="js/cart.js" defer></script>
   </head>
   <body>
+    <!-- Header: any changes made in index should be updated here -->
     <header class="header-container">
       <nav class="site-nav">
-        <h1><a href="index.html"> <img class="wordmark" src="img/brand assets/word brown.svg" alt="wordmark"></a></h1>
+        <h1>
+          <a href="index.html">
+            <img
+              class="wordmark"
+              src="img/brand assets/word brown.svg"
+              alt="wordmark"
+          /></a>
+        </h1>
         <ul>
           <li><a href="products.html">Catalogue</a></li>
           <li><a href="#">About Us</a></li>
-            <li>
+          <li>
             <a href="#"
               ><img
                 class="header-icons"
@@ -36,37 +46,15 @@
       </nav>
     </header>
 
-    <main class="staff-suggests">
-      <section. class="suggestion-container">
-        <div class="image1"></div>
-        <div class="details">
-      <h2>Staff Suggests</h2>
-    <h3>The Safekeep</h3>
-    <h4>Yael Van Der Wouden</h4>
-
-    <p>
-      It is fifteen years after the Second World War, and Isabel has built
-      herself a solitary life of discipline and strict routine in her late
-      mother's country home, with not a fork or a word out of place. But all is
-      upended when her brother Louis delivers his graceless new girlfriend, Eva,
-      at Isabel's doorstep - as a guest, there to stay for the season…
-    </p>
-
-    <p>
-      In the sweltering heat of summer, Isabel's desperate need for control
-      reaches boiling point. What happens between the two women leads to a
-      revelation which threatens to unravel all she has ever known...
-    </p>
-    <button class="add-to-cart-button">Add to cart</button>
-    <button class="remove-button">Remove</button>
-    <div class="illustration">
-      <img src="img/brand assets/motif-green.svg" alt="motif-green">
-    </div>
-       </div>
-      </section>
+    <main>
+      <div>
+        <h3>Your Cart</h3>
+        <section class="cart-grid"></section>
+      </div>
     </main>
-    
-     <footer class="footer">
+
+    <!-- Footer: any changes made in index should be updated here -->
+    <footer class="footer">
       <section class="footer-container">
         <ul>
           <li class="footer-title">Contact Us</li>
@@ -86,7 +74,5 @@
         <small>&copy; 2026 Alcove</small>
       </section>
     </footer>
-  
   </body>
 </html>
-

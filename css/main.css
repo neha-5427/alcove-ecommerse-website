@@ -106,7 +106,6 @@ small {
 .header-container {
   display: block;
   padding: 0 20px;
-  /* max-width: 1240px; */
   background-color: #e9e7db;
   margin-top: 3vh;
   margin-bottom: 3vh;
@@ -244,7 +243,7 @@ body {
   overflow: hidden;
 }
 
-button {
+.add-to-cart-button {
   width: 5.8vw;
   height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
@@ -254,6 +253,19 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.remove-button {
+  display: none;
+  width: 5.8vw;
+  height: auto;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #be5846;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 
 .illustration {
   box-sizing: border-box;
@@ -297,16 +309,33 @@ button {
   background-color: transparent;
 }
 
-button {
+.add-to-cart-button {
   width: fit-content;
   height: auto;
+  margin-top: 1rem;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
+  font-size: 10px;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
 }
+
+.remove-button {
+  display: none;
+  width: fit-content;
+  height: auto;
+  margin-top: 1rem;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #be5846;
+  font-size: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 }
 
 /* media query 2 - max-width: 550px STAFFPICK */
@@ -337,11 +366,23 @@ button {
   background-color: transparent;
 }
 
-button {
-  width: fit-content;
+.add-to-cart-button {
+  width: 23vw;
   height: auto;
   padding: 0.3rem 0.8rem 0.3rem 0.8rem;
   background: #8f7e2d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-button {
+  display: none;
+  width: 23vw;
+  height: auto;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  background: #be5846;
   color: white;
   border: none;
   border-radius: 6px;
@@ -404,8 +445,8 @@ small {
   padding-right: 3rem;
 }
 
-/* media query 1 - (max-width: 1052px) FOOTER */
-@media screen and (max-width: 1052px) {
+/* media query 1 - (max-width: 867px) FOOTER */
+@media screen and (max-width: 867px) {
   .footer-title {
   color: #e9e7db;
   font-family: "Hoss Round";
@@ -477,6 +518,7 @@ small {
   padding-right: 3rem;
 }
 }
+
 
 
 
