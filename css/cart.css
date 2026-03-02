@@ -1,3 +1,10 @@
+.site {
+  min-height: 150dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .cart-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(18.5%, 1fr));
