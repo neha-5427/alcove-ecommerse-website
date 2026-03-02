@@ -511,7 +511,7 @@ small {
 .mail {
   background: url(../img/icons/white_mail_icon.svg);
   background-repeat: no-repeat;
-  display: flex
+  display: flex;
   width: 15px;
   height: 15px;
   box-sizing: border-box;
