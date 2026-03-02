@@ -498,13 +498,13 @@ small {
     padding-right: 3rem;
   }
 
-  .mail {
-    background: url(../img/icons/white_mail_icon.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    width: 15px;
-    height: 15px;
-    box-sizing: border-box;
-    padding-right: 3rem;
-  }
+.mail {
+  background: url(../img/icons/white_mail_icon.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  padding-right: 3rem;
+}
 }
