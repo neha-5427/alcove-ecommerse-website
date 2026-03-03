@@ -7,7 +7,7 @@
 a {
   text-decoration: none;
   color: #402928;
-  font-family: "Hoss Round";
+  font-family: "Hoss Round", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   color: #402928;
-  font-family: "Hoss Round";
+  font-family: "Hoss Round", sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 500;
@@ -30,7 +30,7 @@ h2 {
 
 h3 {
   color: #402928;
-  font-family: "Hoss Round";
+  font-family: "Hoss Round", sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -39,7 +39,7 @@ h3 {
 
 h4 {
   color: #402928;
-  font-family: "Acumin Pro";
+  font-family: "Acumin Pro", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -48,7 +48,7 @@ h4 {
 
 h5 {
   color: #402928;
-  font-family: "Hoss Round";
+  font-family: "Hoss Round", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -57,7 +57,7 @@ h5 {
 
 p {
   color: #402928;
-  font-family: "Acumin Pro";
+  font-family: "Acumin Pro", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -67,7 +67,7 @@ p {
 button {
   color: #e9e7db;
   text-align: center;
-  font-family: "Acumin Pro";
+  font-family: "Acumin Pro", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -76,7 +76,7 @@ button {
 
 .footer-title {
   color: #e9e7db;
-  font-family: "Hoss Round";
+  font-family: "Hoss Round", sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 500;
@@ -85,7 +85,7 @@ button {
 
 footer ul {
   color: #e9e7db;
-  font-family: "Acumin Pro";
+  font-family: "Acumin Pro", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -94,7 +94,7 @@ footer ul {
 
 small {
   color: #e9e7db;
-  font-family: "Acumin Pro";
+  font-family: "Acumin Pro", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
