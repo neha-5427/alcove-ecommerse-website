@@ -236,7 +236,7 @@ body {
   align-content: start;
   overflow: auto;
   max-width: 80rem;
-  scroll-behavior: unset;
+  /* scroll-behavior: unset; */
 }
 
 .details > * {
@@ -266,20 +266,6 @@ body {
   cursor: pointer;
 }
 
-.illustration {
-  box-sizing: border-box;
-  grid-row: 7;
-  display: flex;
-  align-items: center;
-  margin-left: 25rem;
-  height: auto;
-  max-width: 338px;
-  max-height: 462px;
-  width: 100%;
-  transform: rotate(-90deg);
-  background-color: transparent;
-}
-
 /* media query 1 - (max-width: 867px) STAFFPICK */
 @media screen and (max-width: 867px) {
   .suggestion-container {
@@ -292,20 +278,6 @@ body {
   .details {
     grid-row: 2 / 3;
     padding-top: 3vh;
-  }
-
-  .illustration {
-    box-sizing: border-box;
-    grid-row: 7;
-    display: none;
-    align-items: center;
-    margin-left: 25rem;
-    height: auto;
-    max-width: 338px;
-    max-height: 462px;
-    width: 100%;
-    transform: rotate(-90deg);
-    background-color: transparent;
   }
 
   .add-to-cart-button {
@@ -348,20 +320,6 @@ body {
   .details {
     grid-row: 2 / 3;
     padding-top: 3vh;
-  }
-
-  .illustration {
-    box-sizing: border-box;
-    grid-row: 7;
-    display: none;
-    align-items: center;
-    margin-left: 25rem;
-    height: auto;
-    max-width: 338px;
-    max-height: 462px;
-    width: 100%;
-    transform: rotate(-90deg);
-    background-color: transparent;
   }
 
   .add-to-cart-button {
